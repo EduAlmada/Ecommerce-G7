@@ -43,3 +43,7 @@ Route::get('/admCategoria', function(){
 Route::get('/admMarca', function(){
     return 'admMarca';
 });
+
+Route::get('/admUsuario',function(){
+    return view('admUsuario');
+});
