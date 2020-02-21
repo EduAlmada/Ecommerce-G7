@@ -14,3 +14,29 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+########################################################
+## Rutas agregadas para el Proyecto Ecommerce Grupo 7 ##
+########################################################
+
+/*Rutas para el usuario invitado */
+Route::get('/home',function(){
+    return  'home';
+});
+
+Route::get('/contacto' , function(){
+    return 'contacto';
+});
+
+/*Rutas para el usuario administrador */
+Route::get('/admProducto',function(){
+    return 'admProducto';
+});
+
+Route::get('/admCategoria', function(){
+    return 'admCategoria';
+});
+
+Route::get('/admMarca', function(){
+    return 'admMarca';
+});
