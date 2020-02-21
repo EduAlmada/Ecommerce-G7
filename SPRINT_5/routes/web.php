@@ -21,12 +21,15 @@ Route::get('/', function () {
 
 /*Rutas para el usuario invitado */
 Route::get('/home',function(){
-    return view('home');
+    return view('home'); 
 });
 
 Route::get('/contacto' , function(){
-    return 'contacto';
+    return view('contacto');
 });
+
+
+
 
 /*Rutas para el usuario administrador */
 Route::get('/admProducto',function(){

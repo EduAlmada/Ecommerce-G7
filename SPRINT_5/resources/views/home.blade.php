@@ -21,7 +21,7 @@
 </head>
 
 <body>
-<!-- Navbar, fixed-top-->
+<!-- Inicio Navbar, fixed-top-->
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> 
     <div class="container">
         <!-- la marca del comercio-->
@@ -55,17 +55,13 @@
                 <a class="nav-link" href="faq.php" target="_self">Preguntas frecuentes</a>
             </li>
         
-            <li class="nav-item">
+         <!--   <li class="nav-item">
                 <a class="nav-link" href="registro.php" target="_self">Registrarse</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="controladores/verificarIngresoLogin.php" target="_self">Login</a>
-            </li>
+            </li> -->
       
-            <li class="nav-item">
-                <a class="nav-link" href="logout.php" target="_self">LogOut</a>
-            </li>
-            
             <li class="nav-item">
                 <a class="nav-link" href="formularioContacto.php" target="_self">Contacto</a>
             </li>
@@ -438,7 +434,7 @@
 
 
 
-
+<!-- INICIO FOOTER -->
 <footer class="page-footer text-center font-small mt-5 bg-dark">
 
     <div class="pt-4">
@@ -467,7 +463,7 @@
     </div>
 
 </footer>
-
+<!-- FIN FOOTER -->
 
 
 
