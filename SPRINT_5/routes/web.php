@@ -21,7 +21,7 @@ Route::get('/', function () {
 
 /*Rutas para el usuario invitado */
 Route::get('/home',function(){
-    return  'home';
+    return view('home');
 });
 
 Route::get('/contacto' , function(){
