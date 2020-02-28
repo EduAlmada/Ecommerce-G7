@@ -47,3 +47,35 @@ Route::get('/admMarca', function(){
 Route::get('/admUsuario',function(){
     return view('admUsuario');
 });
+
+Route::get('/adminUsuarios',function(){
+    return 'adminUsuarios';
+});
+
+Route::get('/formAgregarProducto',function(){
+    return 'formAgregarProducto';
+});
+
+Route::get('/formAgregarCategoria',function(){
+    return 'formAgregarCategoria';
+});
+
+Route::get('/agregarCategoria',function(){
+    return 'agregarCategoria';
+});
+
+Route::get('/formAgregarMarca',function(){
+    return 'formAgregarMarca';
+});
+
+Route::get('/formAgregarUsuario',function(){
+    return 'formAgregarUsuario';
+});
+
+Route::get('/agregarMarca',function(){
+    return 'agregarMarca';
+});
+
+Route::get('/modificarMarca',function(){
+    return 'modificarMarca';
+});
