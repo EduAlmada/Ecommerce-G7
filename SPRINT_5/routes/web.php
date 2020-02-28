@@ -11,6 +11,7 @@
 |
 */
 
+/* Ruta de ejemplo */
 Route::get('/', function () {
     return view('welcome');
 });
@@ -21,35 +22,31 @@ Route::get('/', function () {
 
 /*Rutas para el usuario invitado */
 Route::get('/home',function(){
-    return view('home'); 
+    return view('home');  //Vista de home
 });
 
 Route::get('/contacto' , function(){
-    return view('contacto');
+    return view('contacto'); //Vista de contacto
 });
 
 
 
 
 /*Rutas para el usuario administrador */
-Route::get('/admProducto',function(){
-    return 'admProducto';
+Route::get('/adminProductos',function(){
+    return 'adminProductos';
 });
 
-Route::get('/admCategoria', function(){
-    return 'admCategoria';
+Route::get('/adminCategorias', function(){
+    return 'adminCategorias';
 });
 
-Route::get('/admMarca', function(){
-    return 'admMarca';
-});
-
-Route::get('/admUsuario',function(){
-    return view('admUsuario');
+Route::get('/adminMarcas', function(){
+    return 'adminMarcas';
 });
 
 Route::get('/adminUsuarios',function(){
-    return 'adminUsuarios';
+    return view('adminUsuarios');  //Vista tabla de adminUsuarios
 });
 
 Route::get('/formAgregarProducto',function(){
@@ -70,6 +67,11 @@ Route::get('/formAgregarMarca',function(){
 
 Route::get('/formAgregarUsuario',function(){
     return 'formAgregarUsuario';
+});
+
+Route::get('/formModificarMarca/{id}',function($id){ //Luego hay que agregar el controlador
+     $id=7;
+     return view('formModificarMarca'); 
 });
 
 Route::get('/agregarMarca',function(){
