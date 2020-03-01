@@ -66,7 +66,7 @@ Route::get('/formAgregarMarca',function(){
 });
 
 Route::get('/formAgregarUsuario',function(){
-    return 'formAgregarUsuario';
+    return view('formAgregarUsuario'); 
 });
 
 Route::get('/formModificarMarca/{id}',function($id){ //Luego hay que agregar el controlador
@@ -81,3 +81,4 @@ Route::get('/agregarMarca',function(){
 Route::get('/modificarMarca',function(){
     return 'modificarMarca';
 });
+
