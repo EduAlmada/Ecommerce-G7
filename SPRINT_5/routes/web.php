@@ -48,7 +48,7 @@ Route::get('/adminCategorias', function(){
 });
 
 Route::get('/adminMarcas', function(){
-    return 'adminMarcas';
+    return view('adminMarcas');
 });
 
 Route::get('/adminUsuarios',function(){
@@ -71,9 +71,7 @@ Route::get('/formAgregarMarca',function(){
     return 'formAgregarMarca';
 });
 
-Route::get('/formAgregarUsuario',function(){
-    return view('formAgregarUsuario'); 
-});
+
 
 Route::get('/formModificarMarca/{id}',function($id){ //Luego hay que agregar el controlador
      $id=7;
