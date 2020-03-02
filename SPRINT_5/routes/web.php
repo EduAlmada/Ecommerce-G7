@@ -16,6 +16,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/test', 'testController@show');
+
 ########################################################
 ## Rutas agregadas para el Proyecto Ecommerce Grupo 7 ##
 ########################################################
@@ -72,12 +74,12 @@ Route::get('/formAgregarMarca',function(){
 });
 
 Route::get('/formAgregarUsuario',function(){
-    return view('formAgregarUsuario'); 
+    return view('formAgregarUsuario');
 });
 
 Route::get('/formModificarMarca/{id}',function($id){ //Luego hay que agregar el controlador
      $id=7;
-     return view('formModificarMarca'); 
+     return view('formModificarMarca');
 });
 
 Route::get('/agregarMarca',function(){
@@ -88,3 +90,12 @@ Route::get('/modificarMarca',function(){
     return 'modificarMarca';
 });
 
+Route::get('/preguntasFrecuentes',function(){
+  return view('preguntasFrecuentes');
+});
+
+
+
+Route::get('/sobrenosotros',function(){
+    return view('sobrenosotros');
+});
