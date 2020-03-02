@@ -32,7 +32,7 @@
 
     Nuestro compromiso es ofrecer una gran variedad de prendas con una excelente relación diseño-precio-calidad.<br>
 
-    Trabajamos para tener una constante renovación de productos, lo que nos ayuda a brindarle  una gran diversidad de prendas de moda para que pueda usar en diferentes momentos del día.<br>
+    Trabajamos para tener una constante renovación de productos, lo que nos ayuda a brindarle  una gran diversidad de prendas de moda para que pueda usar en diferentes momentos del día..<br>
 
   </p>
 
