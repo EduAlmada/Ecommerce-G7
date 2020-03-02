@@ -89,7 +89,7 @@
                 <li class="nav-item">
                     <a class="nav-link"  href="vistaCarritoCompras.php">
                     
-                    <i class="fas fa-shopping-cart" >4</i>
+                    <i class="fas fa-shopping-cart" >5</i>
                    <!-- <span class="clearfix d-none d-sm-inline-block"> Carrito </span> -->
                     <!-- <span class="badge red z-depth-1 mr-1">1</span> -->
                     </a>
