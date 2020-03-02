@@ -29,7 +29,13 @@ Route::get('/contacto' , function(){
     return view('contacto'); //Vista de contacto
 });
 
+Route::get('/sobreNosotros' , function(){
+    return view('sobreNosotros'); //Vista sobreNosotros
+});
 
+Route::get('/preguntasFrecuentes' , function(){
+    return view('preguntasFrecuentes'); //Vista preguntasFrecuentes
+});
 
 
 /*Rutas para el usuario administrador */
@@ -50,7 +56,7 @@ Route::get('/adminUsuarios',function(){
 });
 
 Route::get('/formAgregarProducto',function(){
-    return 'formAgregarProducto';
+    return view('formAgregarProducto');
 });
 
 Route::get('/formAgregarCategoria',function(){
