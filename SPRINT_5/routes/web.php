@@ -39,9 +39,7 @@ Route::get('/preguntasFrecuentes' , function(){
 
 
 /*Rutas para el usuario administrador */
-Route::get('/adminProductos',function(){
-    return 'adminProductos';
-});
+Route::get('/adminProductos', 'ProductosController@index');
 
 Route::get('/adminCategorias', function(){
     return 'adminCategorias';
