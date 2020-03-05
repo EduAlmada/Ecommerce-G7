@@ -1,18 +1,6 @@
-@extends('layouts.plantillaAdministradores')
 
-    @section('title', 'Panel de Productos')
-
-    @section('h1', 'Panel de Productos')
-
-    @section('main')
-
-
-
-
-
-<!-- INICIO CONTAINER -->
 <div class="container mt-5">
-    <!--INICIO DE TABLA ADMINISTRACION DE USUARIO -->
+    <!--INICIO DE TABLA ADMINISTRACION DE MARCAS -->
 <table class="table table-hover table-striped table-responsive-md">
     <thead class="table-primary">
       <tr>
@@ -61,5 +49,7 @@
       </tr>
     </tbody>
   </table>
-
-  @endsection
+  
+  <!-- FIN DE TABLA ADMINISTRACION DE MARCAS-->
+</div>
+<!-- FIN CONTAINER -->

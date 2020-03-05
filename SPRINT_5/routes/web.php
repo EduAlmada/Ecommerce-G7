@@ -41,16 +41,14 @@ Route::get('/preguntasFrecuentes' , function(){
 
 
 /*Rutas para el usuario administrador */
-Route::get('/adminProductos',function(){
-    return 'adminProductos';
-});
+Route::get('/adminProductos', 'ProductosController@index');
 
 Route::get('/adminCategorias', function(){
     return 'adminCategorias';
 });
 
 Route::get('/adminMarcas', function(){
-    return 'adminMarcas';
+    return view('adminMarcas');
 });
 
 Route::get('/adminUsuarios',function(){
@@ -73,9 +71,13 @@ Route::get('/formAgregarMarca',function(){
     return 'formAgregarMarca';
 });
 
+<<<<<<< HEAD
 Route::get('/formAgregarUsuario',function(){
     return view('formAgregarUsuario');
 });
+=======
+
+>>>>>>> bddbeefef4b2702ad78d6ac394de9b770524f739
 
 Route::get('/formModificarMarca/{id}',function($id){ //Luego hay que agregar el controlador
      $id=7;
