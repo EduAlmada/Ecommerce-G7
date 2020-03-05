@@ -72,11 +72,17 @@ Route::get('/formAgregarMarca',function(){
 });
 
 
+
 Route::get('/formAgregarUsuario',function(){
     return view('formAgregarUsuario');
 });
 
 
+
+
+Route::get('/formAgregarUsuario',function(){
+    return view('formAgregarUsuario');
+});
 
 
 Route::get('/formModificarMarca/{id}',function($id){ //Luego hay que agregar el controlador
@@ -95,7 +101,6 @@ Route::get('/modificarMarca',function(){
 Route::get('/preguntasFrecuentes',function(){
   return view('preguntasFrecuentes');
 });
-
 
 
 Route::get('/sobrenosotros',function(){
