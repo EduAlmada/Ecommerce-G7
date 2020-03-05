@@ -1,26 +1,12 @@
-<!DOCTYPE html>
-<html lang="es">
+@extends('layouts.plantillaInvitados')
+
+    @section('title', 'preguntasFrecuentes')
 
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>E-commerce Grupo 7</title>
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!--Fuente para el proyecto Ecommerce Digital House-->
-   <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    @section('main')
 
 
-   <!-- CSS personalizado de cada formulario -->
- <!--<link rel="stylesheet" href="css/registro.css">
-    <link rel="stylesheet" href="css/perfil.css">
-    <link rel="stylesheet" href="css/login.css"> -->
-</head>
-
-<body>
 
 
   <!-- Inicio Navbar, fixed-top-->
@@ -169,24 +155,8 @@
           <a class="btn-outline-light pl-3 pr-3" href="login.php" target="_self" role="button">Login</a>
           <a class="btn-outline-light pl-3 pr-3" href="formularioContacto.php" target="_self" role="button">Contacto</a>
       </div>
+@endsection
 
-      <div class="p-4">
-          <a href="https://www.facebook.com" target="_blank">
-              <i class="fab fa-facebook-f mr-3"></i>
-          </a>
-          <a href="https://twitter.com" target="_blank">
-              <i class="fab fa-twitter mr-3"></i>
-          </a>
-          <a href="https://www.youtube.com" target="_blank">
-              <i class="fab fa-youtube mr-3"></i>
-          </a>
-          <a href="https://plus.google.com" target="_blank">
-              <i class="fab fa-google-plus-g mr-3"></i>
-          </a>
-      </div>
-
-  </footer>
-</body>
 
 
 
