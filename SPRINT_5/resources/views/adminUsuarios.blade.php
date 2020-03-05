@@ -1,14 +1,9 @@
 @extends('layouts.plantillaAdministradores')
 
-    @section('title', 'Panel de Productos')
+    @section('title', 'Panel de Usuarios')
 
-    @section('h1', 'Panel de Productos')
 
     @section('main')
-
-
-
-
 
 <!-- INICIO CONTAINER -->
 <div class="container mt-5">
