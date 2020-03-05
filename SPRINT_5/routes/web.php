@@ -93,7 +93,6 @@ Route::get('/preguntasFrecuentes',function(){
 });
 
 
-
 Route::get('/sobrenosotros',function(){
     return view('sobrenosotros');
 });

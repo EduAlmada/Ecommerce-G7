@@ -4,7 +4,7 @@
 
 
     @section('main')
-
+    
 <!-- INICIO CONTAINER -->
 <div class="container mt-5">
     <!--INICIO DE TABLA ADMINISTRACION DE USUARIO -->
